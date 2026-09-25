@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects Showcase — Srishti Shaw • Data Analyst</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Caveat:wght@600;700&family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <svg class="leaves" width="160" height="260" viewBox="0 0 160 260" fill="none">
+    <path d="M-15 130 C 40 110, 85 65, 95 10 C 55 45, 15 85, -15 130 Z" fill="#182B21" opacity=".8"/>
+    <path d="M-15 165 C 55 150, 115 110, 142 50 C 85 90, 25 125, -15 165 Z" fill="#223C2E" opacity=".95"/>
+    <path d="M-15 165 C 50 148, 105 112, 142 50" stroke="#2D4D3B" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+    <path d="M-15 205 C 48 198, 108 168, 138 115 C 80 145, 22 175, -15 205 Z" fill="#1C3327" opacity=".92"/>
+    <path d="M-15 205 C 45 195, 100 168, 138 115" stroke="#274635" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+    <path d="M-15 245 C 40 240, 88 220, 115 178 C 65 200, 18 222, -15 245 Z" fill="#15271E" opacity=".88"/>
+  </svg>
+</div>
+
+<div class="page">
+
+  <!-- ================= SITE HEADER ================= -->
+  <header class="site-header wrap">
+    <a class="brand" href="index.html">
+      <svg class="monogram-svg" viewBox="0 0 44 44" fill="none" stroke="#131838" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-label="AR Logo">
+        <polyline points="5 39 16 6 27 39" />
+        <line x1="9.5" y1="27" x2="23" y2="27" />
+        <path d="M21 6 h11 c5 0 7.5 3 7.5 8.5 s-2.5 8.5 -7.5 8.5 h-9.5" />
+        <line x1="25" y1="23" x2="38" y2="39" />
+      </svg>
+      <span class="brand-divider"></span>
+      <span>
+        <span class="brand-name">Srishti Shaw</span>
+        <span class="brand-sub">DATA ANALYST&nbsp;&nbsp;•&nbsp;&nbsp;STORYTELLER WITH DATA</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <a href="about.html">About</a>
+      <a href="projects.html" class="nav-active">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-btn" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a class="connect-btn" href="contact.html">Let's Connect
+        <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= PAGE HERO ================= -->
+    <section class="page-hero wrap">
+      <div class="page-hero-inner">
+        <p class="eyebrow">PORTFOLIO WORK <span class="wave">📊</span></p>
+        <h1>Crafted with Rigor,<br>Built for Real-World <span class="script-matter-wrap"><span class="script-matter">Impact</span><span class="matter-underline"></span></span></h1>
+        <p class="page-lead">A collection of end-to-end analytical solutions—from statistical modeling and machine learning to high-performance SQL pipelines and executive business intelligence dashboards.</p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Projects (7)</button>
+        <button class="filter-btn" data-filter="python-ml">Python &amp; ML</button>
+        <button class="filter-btn" data-filter="sql">SQL &amp; Engineering</button>
+        <button class="filter-btn" data-filter="bi">BI &amp; Dashboards</button>
+        <button class="filter-btn" data-filter="excel">Excel &amp; Analytics</button>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS GRID ================= -->
+    <section class="wrap">
+      <div class="projects-full-grid" id="projectsContainer">
+
+        <!-- Project 1 -->
+        <article class="proj-card" data-category="python-ml bi">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>Bank Customer Churn</span>
+              <em class="pv-pill">Python • ML</em>
+            </div>
+            <div class="mock">
+              <p class="mock-caption">Customer Attrition &amp; Retention Risk</p>
+              <div class="mock-row">
+                <div class="donut">
+                  <svg viewBox="0 0 112 112">
+                    <circle cx="56" cy="56" r="44" stroke="rgba(255,255,255,.1)" stroke-width="12" fill="none"/>
+                    <circle cx="56" cy="56" r="44" stroke="url(#sg1)" stroke-width="12" stroke-dasharray="276" stroke-dashoffset="220" stroke-linecap="round" fill="none" transform="rotate(-90 56 56)"/>
+                  </svg>
+                  <div class="donut-label">
+                    <strong>20.4%</strong>
+                    <span>Churn Rate</span>
+                  </div>
+                </div>
+                <div class="bars">
+                  <svg viewBox="0 0 140 96" preserveAspectRatio="none" style="width:100%;height:100%">
+                    <rect x="6" y="60" width="14" height="36" rx="3" fill="#6A75CA"/>
+                    <rect x="26" y="44" width="14" height="52" rx="3" fill="#8872C4"/>
+                    <rect x="46" y="24" width="14" height="72" rx="3" fill="#B366B5"/>
+                    <rect x="66" y="36" width="14" height="60" rx="3" fill="#D86095"/>
+                    <rect x="86" y="14" width="14" height="82" rx="3" fill="#F07258"/>
+                    <rect x="106" y="8" width="14" height="88" rx="3" fill="#F5934A"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>Bank Customer Churn Analysis</h3>
+            <p>Built predictive classification models and interactive diagnostic dashboards to analyze customer attrition drivers, identify high-risk accounts, and improve retention by 24%.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Power BI</span>
+              <span>EDA</span>
+              <span>Classification</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/Bank-Customer-Churn-Analysis" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="proj-card" data-category="sql">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>IPL Match &amp; Player Analytics</span>
+              <em class="pv-pill">SQL • MySQL</em>
+            </div>
+            <div class="mock">
+              <div class="kpis">
+                <div class="kpi"><span>TOSS WIN%</span><strong>61.2%</strong></div>
+                <div class="kpi"><span>AVG SR</span><strong>142.8</strong></div>
+                <div class="kpi"><span>ECO RATE</span><strong>6.4</strong></div>
+              </div>
+              <div class="bars" style="height:62px">
+                <svg viewBox="0 0 230 62" preserveAspectRatio="none" style="width:100%;height:100%">
+                  <rect x="8" y="20" width="16" height="42" rx="3" fill="#6A75CA"/>
+                  <rect x="34" y="8" width="16" height="54" rx="3" fill="#786EC6"/>
+                  <rect x="60" y="28" width="16" height="34" rx="3" fill="#9065BA"/>
+                  <rect x="86" y="14" width="16" height="48" rx="3" fill="#E86A65"/>
+                  <rect x="112" y="22" width="16" height="40" rx="3" fill="#8872C4"/>
+                  <rect x="138" y="10" width="16" height="52" rx="3" fill="#F07C50"/>
+                  <rect x="164" y="18" width="16" height="44" rx="3" fill="#A862AB"/>
+                  <rect x="190" y="4" width="16" height="58" rx="3" fill="#F5934A"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>IPL Cricket Performance &amp; SQL Analytics</h3>
+            <p>Executed complex multi-table SQL queries, window functions, and CTEs to extract match-winning strike rates, death-overs bowler economy, and team season momentum trends.</p>
+            <div class="tags">
+              <span>SQL</span>
+              <span>MySQL</span>
+              <span>Window Functions</span>
+              <span>CTEs</span>
+              <span>Data Modeling</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/IPL-SQL-Analysis" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="proj-card" data-category="bi python-ml">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>UPI Digital Transactions</span>
+              <em class="pv-pill">FinTech • Python</em>
+            </div>
+            <div class="mock">
+              <div class="kpis">
+                <div class="kpi"><span>VOLUME</span><strong>₹18.4T</strong></div>
+                <div class="kpi"><span>YOY GROWTH</span><strong>+48%</strong></div>
+                <div class="kpi"><span>SUCCESS</span><strong>99.2%</strong></div>
+              </div>
+              <div class="area">
+                <svg viewBox="0 0 230 62" preserveAspectRatio="none" style="width:100%;height:100%">
+                  <defs>
+                    <linearGradient id="areaGradProj" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#F28A52" stop-opacity=".55"/>
+                      <stop offset="100%" stop-color="#9C52A2" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0 45 Q 24 38, 48 30 T 96 35 T 144 14 T 192 20 T 230 8 L 230 62 L 0 62 Z" fill="url(#areaGradProj)"/>
+                  <path d="M0 45 Q 24 38, 48 30 T 96 35 T 144 14 T 192 20 T 230 8" fill="none" stroke="#F5934A" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>UPI Digital Transactions &amp; FinTech Analysis</h3>
+            <p>Analyzed large-scale UPI payment logs to model P2P vs merchant volume trends, transaction failure rate bottlenecks, and festive surge velocity across Indian payment networks.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Tableau</span>
+              <span>FinTech</span>
+              <span>Time Series</span>
+              <span>Payment APIs</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/upi-analysis" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="proj-card" data-category="excel">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>Mental Health &amp; Burnout in Tech</span>
+              <em class="pv-pill">Excel • Slicers</em>
+            </div>
+            <div class="mock">
+              <div class="kpis">
+                <div class="kpi"><span>BURNOUT</span><strong>42%</strong></div>
+                <div class="kpi"><span>REMOTE</span><strong>68%</strong></div>
+                <div class="kpi"><span>OVERTIME</span><strong>+3.4h</strong></div>
+              </div>
+              <div class="scatter" style="height:62px">
+                <svg viewBox="0 0 230 62" style="width:100%;height:100%">
+                  <line x1="10" y1="52" x2="220" y2="52" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+                  <line x1="10" y1="10" x2="10" y2="52" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+                  <circle cx="35" cy="44" r="4" fill="#6A75CA" opacity=".85"/>
+                  <circle cx="65" cy="38" r="5" fill="#8872C4" opacity=".85"/>
+                  <circle cx="95" cy="32" r="6" fill="#B366B5" opacity=".85"/>
+                  <circle cx="125" cy="24" r="5.5" fill="#D86095" opacity=".85"/>
+                  <circle cx="160" cy="18" r="7" fill="#F07258" opacity=".9"/>
+                  <circle cx="195" cy="14" r="6" fill="#F5934A" opacity=".95"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>Mental Health &amp; Tech Burnout Diagnostics</h3>
+            <p>Engineered an executive-grade Excel reporting system with dynamic nested formulas, conditional alert scoring, and interactive pivot slicers assessing workplace stress drivers.</p>
+            <div class="tags">
+              <span>Excel</span>
+              <span>Advanced Formulas</span>
+              <span>Pivot Dashboards</span>
+              <span>Conditional Logic</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/Mental_health_and_burnout_in_tech_2026_excel" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="proj-card" data-category="python-ml">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>Social Media Impact on Teens</span>
+              <em class="pv-pill">Python • NLP</em>
+            </div>
+            <div class="mock">
+              <div class="kpis">
+                <div class="kpi"><span>CORR (r)</span><strong>-0.64</strong></div>
+                <div class="kpi"><span>P-VALUE</span><strong>&lt;0.001</strong></div>
+                <div class="kpi"><span>SAMPLE</span><strong>4,500+</strong></div>
+              </div>
+              <div class="bars" style="height:62px">
+                <svg viewBox="0 0 230 62" preserveAspectRatio="none" style="width:100%;height:100%">
+                  <rect x="15" y="10" width="28" height="52" rx="4" fill="#F5744B"/>
+                  <rect x="58" y="22" width="28" height="40" rx="4" fill="#D86095"/>
+                  <rect x="101" y="32" width="28" height="30" rx="4" fill="#B366B5"/>
+                  <rect x="144" y="44" width="28" height="18" rx="4" fill="#786EC6"/>
+                  <rect x="187" y="50" width="28" height="12" rx="4" fill="#6A75CA"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>Teen Mental Health &amp; Screen Habits</h3>
+            <p>Performed sentiment analysis and statistical hypothesis testing on social media engagement logs, uncovering correlations between passive scrolling and adolescent sleep disruption.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>NLP</span>
+              <span>Hypothesis Testing</span>
+              <span>Seaborn</span>
+              <span>Pandas</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/Social_Media_Impact_on_Teenager_Mental-Health" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="proj-card" data-category="bi">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>Data Visualization &amp; BI Library</span>
+              <em class="pv-pill">Tableau • Power BI</em>
+            </div>
+            <div class="mock">
+              <div class="kpis">
+                <div class="kpi"><span>TEMPLATES</span><strong>12+</strong></div>
+                <div class="kpi"><span>CHART TYPES</span><strong>18+</strong></div>
+                <div class="kpi"><span>ACCESSIBILITY</span><strong>WCAG AA</strong></div>
+              </div>
+              <div class="area">
+                <svg viewBox="0 0 230 62" preserveAspectRatio="none" style="width:100%;height:100%">
+                  <path d="M0 50 Q 30 20, 60 40 T 120 15 T 180 30 T 230 5 L 230 62 L 0 62 Z" fill="rgba(155,105,198,.3)"/>
+                  <path d="M0 50 Q 30 20, 60 40 T 120 15 T 180 30 T 230 5" fill="none" stroke="#B867CA" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>Data Visualization Design System</h3>
+            <p>A curated collection of bespoke visual components, heatmaps, sankey diagrams, and storytelling dashboards designed to communicate multi-dimensional metrics cleanly.</p>
+            <div class="tags">
+              <span>Tableau</span>
+              <span>Power BI</span>
+              <span>Data Viz</span>
+              <span>Visual Hierarchy</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/data-visualize" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Project 7 -->
+        <article class="proj-card" data-category="excel bi">
+          <div class="proj-visual">
+            <div class="pv-head">
+              <span>Freelance Analytics Solutions</span>
+              <em class="pv-pill">Client Solutions</em>
+            </div>
+            <div class="mock">
+              <div class="kpis">
+                <div class="kpi"><span>DELIVERABLES</span><strong>5+</strong></div>
+                <div class="kpi"><span>TIME SAVED</span><strong>40%</strong></div>
+                <div class="kpi"><span>ACCURACY</span><strong>99.9%</strong></div>
+              </div>
+              <div class="bars" style="height:62px">
+                <svg viewBox="0 0 230 62" preserveAspectRatio="none" style="width:100%;height:100%">
+                  <rect x="15" y="35" width="22" height="27" rx="3" fill="#6A75CA"/>
+                  <rect x="50" y="28" width="22" height="34" rx="3" fill="#8872C4"/>
+                  <rect x="85" y="20" width="22" height="42" rx="3" fill="#B366B5"/>
+                  <rect x="120" y="14" width="22" height="48" rx="3" fill="#D86095"/>
+                  <rect x="155" y="8" width="22" height="54" rx="3" fill="#F07258"/>
+                  <rect x="190" y="2" width="22" height="60" rx="3" fill="#F5934A"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <h3>Client Analytics &amp; Reporting Suite</h3>
+            <p>Production-ready financial, operational, and customer performance tracking models developed for SMB clients to automate recurring month-end financial reviews.</p>
+            <div class="tags">
+              <span>Client Solutions</span>
+              <span>KPI Dashboards</span>
+              <span>Automation</span>
+              <span>Excel / BI</span>
+            </div>
+            <a class="view-project" href="https://github.com/srishtishaw59/portfolio_freelancing" target="_blank" rel="noopener noreferrer">
+              <span>View on GitHub</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Center GitHub Button -->
+      <div class="projects-cta-center" style="margin-top:54px">
+        <a class="btn-all-projects" href="https://github.com/srishtishaw59?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <span class="btn-text">Explore All 7 Repositories on GitHub</span>
+          <span class="btn-arrow-wrap">
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FINAL CTA ================= -->
+  <section class="cta" id="contact">
+    <div class="cta-inner">
+      <div class="cta-main">
+        <div class="cta-left">
+          <p class="eyebrow light">READY TO COLLABORATE?</p>
+          <h2>Let's Create<br>Something <span class="script-meaningful-wrap"><span class="script-meaningful">Meaningful</span></span> Together</h2>
+        </div>
+        <div class="cta-right">
+          <p>Have a project in mind or an opportunity to discuss? I'd love to hear from you and explore how data can create value for your team.</p>
+          <div class="cta-actions">
+            <a class="btn-primary" href="contact.html">Let's Connect
+              <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/srishti-shaw-054769284/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4v16h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-8.5c0-2.03-.04-4.64-2.83-4.64-2.83 0-3.27 2.2-3.27 4.5V24H8V8z"/></svg></a>
+              <a href="https://github.com/srishtishaw59" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cta-bottom">
+        <p class="thanks">Thanks for visiting my portfolio!
+          <svg viewBox="0 0 24 24"><path d="M12 20s-7.5-4.7-9.3-9A5.2 5.2 0 0 1 12 6.2 5.2 5.2 0 0 1 21.3 11c-1.8 4.3-9.3 9-9.3 9z"/></svg>
+        </p>
+        <p class="cta-tags">ANALYZE&nbsp;&nbsp;•&nbsp;&nbsp;VISUALIZE&nbsp;&nbsp;•&nbsp;&nbsp;EMPOWER<span class="bar">|</span>ONE INSIGHT AT A TIME</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ================= SCROLL PERCENTAGE DIALER ============ -->
+<div class="scroll-dialer" id="scrollDialer" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" title="Scroll Progress">
+  <div class="scroll-track" id="scrollTrack">
+    <div class="scroll-fill" id="scrollFill"></div>
+    <div class="scroll-knob" id="scrollKnob">
+      <svg class="scroll-ring-svg" viewBox="0 0 42 42">
+        <defs>
+          <linearGradient id="dialerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#6E6DF2" />
+            <stop offset="50%" stop-color="#B867CA" />
+            <stop offset="100%" stop-color="#F87545" />
+          </linearGradient>
+        </defs>
+        <circle class="scroll-ring-track" cx="21" cy="21" r="18" />
+        <circle class="scroll-ring-bar" id="scrollRingBar" cx="21" cy="21" r="18" stroke="url(#dialerGrad)" />
+      </svg>
+      <span class="scroll-pct-text" id="scrollPctText">0%</span>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Filter Functionality
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('#projectsContainer .proj-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.getAttribute('data-filter');
+      cards.forEach(card => {
+        if (filter === 'all') {
+          card.style.display = 'flex';
+        } else {
+          const categories = card.getAttribute('data-category') || '';
+          if (categories.includes(filter)) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        }
+      });
+    });
+  });
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
